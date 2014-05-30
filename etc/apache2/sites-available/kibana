@@ -1,0 +1,6 @@
+Alias /kibana /opt/kibana
+
+<Location /kibana>
+ Order deny,allow
+ Allow from all
+</Location>
